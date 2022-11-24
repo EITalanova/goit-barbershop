@@ -1,0 +1,212 @@
+:root {
+  --basic-dark-color: #303030;
+  --basik-light-color: #ffffff;
+  --basik-grey: #555555;
+  --accent-color: #ff6c00;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  display: block;
+  /* max-width: 100%;
+  height: auto; */
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.description-style {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.title-style {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+}
+
+.details-style {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.details-style-smaller-font {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.btn-style {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  color: #303030;
+}
+
+.item-link,
+.link {
+  text-decoration: none;
+}
+
+.current {
+}
+
+.header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: calc(16 / 12);
+}
+
+.header-logo {
+}
+
+.menu {
+  letter-spacing: 0.1em;
+
+  /* color: #FFFFFF; */
+}
+.menu-list {
+}
+
+.menu-item {
+}
+.menu-link {
+}
+.item-link {
+}
+.header-tel {
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.header-booking {
+  font-weight: 600;
+  font-size: 12px;
+
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.hero {
+}
+.hero-list {
+  color: inherit;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.2em;
+}
+.list {
+}
+.hero-item {
+}
+.link {
+}
+.hero-description {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+
+  text-transform: uppercase;
+
+  color: rgba(157, 164, 189, 0.6);
+}
+.hero-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+  letter-spacing: 0.05em;
+
+  /* color: #FFFFFF; */
+}
+.hero-details {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
+  letter-spacing: 0.1em;
+
+  /* color: #FFFFFF; */
+}
+
+.come-to-us-item-num {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 57px;
+  letter-spacing: 0.05em;
+}
+
+.come-to-us-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+}
+
+.barbers-list-name {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
+
+.barbers-list-discr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+.galery-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
